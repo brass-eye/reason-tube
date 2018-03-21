@@ -6,7 +6,7 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w  --port 8888"
   },
   "keywords": [
     "BuckleScript"
@@ -20,6 +20,4 @@
   },
   "devDependencies": {
     "bs-platform": "^2.1.0",
-    "webpack": "^3.8.1"
-  }
-}
+        "webpack": "^3.w
