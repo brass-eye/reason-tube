@@ -14,11 +14,10 @@ let handleClick = (_event, _self) => Js.log("clicked!");
    Which desugars to
 
    `ReasonReact.element(Page.make(~message="hello", [||]))` */
-let make = (~message, _children) => {
+let make = (_children) => {
   ...component,
   render: (self) =>
     <div onClick=(self.handle(handleClick))> 
-      (ReasonReact.stringToElement(message)) 
       <Table />
     </div>
 };
