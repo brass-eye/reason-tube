@@ -18,6 +18,6 @@ let make = (_children) => {
   ...component,
   render: (self) =>
     <div onClick=(self.handle(handleClick))> 
-      <Table />
+      <TrainTable />
     </div>
 };
